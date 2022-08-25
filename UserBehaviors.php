@@ -53,7 +53,7 @@ class UserBehaviors extends AttributeBehavior
     protected function getValue($event)
     {
         if ($this->value === null) {
-            return Yii::$app->user->username;
+            return Yii::$app->user->identity->username;
         }
 
         return parent::getValue($event);
