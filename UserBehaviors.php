@@ -4,6 +4,7 @@ namespace budipratama\behaviors;
 use yii\base\InvalidCallException;
 use yii\behaviors\AttributeBehavior;
 use yii\db\BaseActiveRecord;
+use Yii;
 /**
  * This is just an example.
  */
